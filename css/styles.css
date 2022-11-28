@@ -24,17 +24,20 @@
 }
 
 .main-text{
-  font-family: 'Roboto';
-font-style: normal;
 font-weight: 600;
 font-size: 56px;
-line-height: 60px;
+line-height: 1.07;
 /* or 107% */
 
 text-align: center;
 letter-spacing: 0.02em;
 
 color: #FFFFFF;
+}
+
+.button {
+  font-family: inherit;
+  cursor: pointer;
 }
 
 .button {
@@ -57,6 +60,8 @@ color: #FFFFFF;
 
 
 .main-button {
+  font-family: 'Roboto';
+ font-style: normal;
   font-weight: 600;
   font-size: 16px;
   line-height: 1.18;
@@ -73,6 +78,11 @@ color: #FFFFFF;
   background-color: #404bbf;
 }
 
+
+.button-portfolio{
+  cursor: pointer;
+}
+
 .hero {
   color: #ffffff;
   background-color: #2e2f42;
@@ -85,9 +95,7 @@ color: #FFFFFF;
 }
 
 
-.h2 {
-font-family: "Roboto", sans-serif;
-font-style: normal;
+.rubric {
 font-weight: 600;
 font-size: 36px;
 line-height: 40px;
@@ -118,6 +126,12 @@ color: #2E2F42;
   text-decoration: none;
 }
 
+.link:hover,
+.link:focus{
+  color:#434455;
+}
+
+
 .link-hover { 
 font-family: 'Roboto';
 font-style: normal;
@@ -147,6 +161,11 @@ letter-spacing: 0.02em;
 /* SLATE */
 
 color: #434455;
+ }
+
+ .contact-hover:hover,
+ .contact-hover:focus{
+  color:#4d5ae5
  }
 
 .logotype {
@@ -183,14 +202,14 @@ color: #434455;
   color: #e7e9fc;
 }
 
-.h3 {
+.caption {
   font-weight: 600;
   font-size: 20px;
   line-height: 1.2;
   color: #2E2F42;
 }
 
-.p{
+.text{
   color: #434455;
 }
 
@@ -202,4 +221,30 @@ color: #434455;
   line-height: 1.2;
 }
 
+.text-ind{
+font-weight: 600;
+font-size: 20px;
+line-height: 1.50;
+/* identical to box height, or 120% */
+
+letter-spacing: 0.02em;
+
+/* NAVY BLUE */
+
+color: #2E2F42;
+
+}
+
+.text-paar{
+font-weight: 400;
+font-size: 16px;
+line-height: 1.50;
+/* or 150% */
+
+letter-spacing: 0.02em;
+
+/* SLATE */
+
+color: #434455;
+}
 
