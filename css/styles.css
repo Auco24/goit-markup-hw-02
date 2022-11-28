@@ -80,7 +80,7 @@ color: #FFFFFF;
 }
 
 .menu-link  {
-  color: var(--color-title-background);
+  color: #2E2F42;
   font-weight: 600;
 }
 
@@ -194,5 +194,12 @@ color: #434455;
   color: #434455;
 }
 
+.adition-portfolio {
+  color: #2E2F42;
+  text-align: left;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+}
 
 
