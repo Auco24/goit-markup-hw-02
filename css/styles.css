@@ -5,12 +5,14 @@
   --alternative-color: #f4f4fd;
   --bacground-color-text: #ffffff;
   --hover-color: #434455;
+  --button-color: #E7E9FC;
+  --color-footer: #e7e9fc;
 }
 
 .body {
   font-family: "Roboto", sans-serif;
-  color:  #2E2F42;
-  background-color: #ffffff;
+  color:  var(--color-title-background);
+  background-color: var(--bacground-color-text);
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -32,7 +34,7 @@ line-height: 1.07;
 text-align: center;
 letter-spacing: 0.02em;
 
-color: #FFFFFF;
+color: var(--bacground-color-text);
 }
 
 .button {
@@ -41,12 +43,13 @@ color: #FFFFFF;
 }
 
 .button {
+  font-size: 16px;
   font-weight: 600;
   align-items: center;
   text-align: center;
   letter-spacing: 0.04em;
-  color:#4D5AE5;
-  background-color:#E7E9FC;
+  color: var(--color-studio);
+  background-color: var(--button-color);
   border: 0;
   cursor: pointer;
   border-radius: 4px;
@@ -54,8 +57,8 @@ color: #FFFFFF;
 
 .button:hover,
 .button:focus {
-  color:#FFFFFF;
-  background-color:#4D5AE5 ;
+  color: var(--bacground-color-text);
+  background-color: var(--color-studio);
 }
 
 
@@ -67,8 +70,8 @@ color: #FFFFFF;
   line-height: 1.18;
   align-items: center;
   letter-spacing: 0.04em;
-  color: #ffffff;
-  background-color: #4d5ae5;
+  color: var(--bacground-color-text);
+  background-color: var(--color-studio);
   border: 0;
   cursor: pointer;
   border-radius: 4px;
@@ -84,13 +87,13 @@ color: #FFFFFF;
 }
 
 .hero {
-  color: #ffffff;
-  background-color: #2e2f42;
+  color: var(--bacground-color-text);
+  background-color: var(--color-title-background);
   text-align: center;
 }
 
 .menu-link  {
-  color: #2E2F42;
+  color: var(--color-title-background);
   font-weight: 600;
 }
 
@@ -98,22 +101,22 @@ color: #FFFFFF;
 .rubric {
 font-weight: 600;
 font-size: 36px;
-line-height: 40px;
+line-height: 2.50;
 /* identical to box height, or 111% */
 
 text-align: center;
 letter-spacing: 0.02em;
 text-transform: capitalize;
 
-color: #2E2F42;
+color: var(--color-title-background);
 }
 
 .our-team {
-  background-color: #F4F4FD;
+  background-color: var(--alternative-color);
 }
 
 .our-list {
-  background-color: #FFFFFF;
+  background-color: var(--bacground-color-text);
   text-align: center;
 }
 
@@ -128,7 +131,7 @@ color: #2E2F42;
 
 .link:hover,
 .link:focus{
-  color:#434455;
+  color: var(--hover-color);
 }
 
 
@@ -137,14 +140,14 @@ font-family: 'Roboto';
 font-style: normal;
 font-weight: 600;
 font-size: 16px;
-line-height: 24px;
+line-height: 1.50;
 /* identical to box height, or 150% */
 
 letter-spacing: 0.02em;
 
 /* NAVY BLUE */
 
-color: #2E2F42;
+color: var(--color-title-background);
  }
 
  .contact-hover {
@@ -153,23 +156,23 @@ font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
-line-height: 24px;
+line-height: 1.50;
 /* identical to box height, or 150% */
 
 letter-spacing: 0.02em;
 
 /* SLATE */
 
-color: #434455;
+color: var(--color-text);
  }
 
  .contact-hover:hover,
  .contact-hover:focus{
-  color:#4d5ae5
+  color: var(--color-studio);
  }
 
 .logotype {
-  color: #2E2F42;
+  color: var(--color-title-background);
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 800;
@@ -178,7 +181,7 @@ color: #434455;
 }
 
 .first-word {
-  color: #4D5AE5;
+  color: var(--color-studio);
 }
 
 .adition-portfolio {
@@ -189,7 +192,7 @@ color: #434455;
 }
 
 .log-down {
-  color: #FFFFFF;
+  color: var(--bacground-color-text);
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 800;
@@ -198,23 +201,23 @@ color: #434455;
 }
 
 .footer{
-  background-color: #2E2F42;
-  color: #e7e9fc;
+  background-color: var(--color-title-background);
+  color: var(--color-footer);
 }
 
 .caption {
   font-weight: 600;
   font-size: 20px;
   line-height: 1.2;
-  color: #2E2F42;
+  color: var(--color-title-background);
 }
 
 .text{
-  color: #434455;
+  color: var(--color-text);
 }
 
 .adition-portfolio {
-  color: #2E2F42;
+  color: var(--color-title-background);
   text-align: left;
   font-weight: 600;
   font-size: 20px;
@@ -231,7 +234,7 @@ letter-spacing: 0.02em;
 
 /* NAVY BLUE */
 
-color: #2E2F42;
+color: var(--color-title-background);
 
 }
 
@@ -245,6 +248,6 @@ letter-spacing: 0.02em;
 
 /* SLATE */
 
-color: #434455;
+color: var(--color-text);
 }
 
